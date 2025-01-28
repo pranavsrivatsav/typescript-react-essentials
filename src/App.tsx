@@ -1,10 +1,9 @@
-import Component from "./challenges/challenge1";
+import ParentComponent from "./lessons/08-fetch-data";
 
 function App() {
   return (
     <main>
-      <Component type="Basic" name="demo" />
-      <Component type="Advanced" name="demo" email="demo@demo.com" />
+      <ParentComponent />
     </main>
   );
 }
